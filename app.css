@@ -125,14 +125,27 @@
    * {
       margin: 0;
       padding: 0;
-      background-color: antiquewhite;
-      display: block;
+      text-align: center;
+      margin: auto;
+
+
    }
 
-   .content h1 p {
-      width: 20px;
-      margin-bottom: 100rem;
-      color: black;
-      display: block;
+   .banner {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      padding: 35px 0;
+
    }
+
+   .content {
+      display: block;
+      width: 100%;
+      height: 100vh;
+      justify-content: space-evenly;
+      margin-bottom: 21rem;
+   }
+
 }
